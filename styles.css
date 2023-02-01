@@ -1,0 +1,106 @@
+body {
+  color: white;
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+  padding: 20px;
+  background-image: url("https://images.pexels.com/photos/1202047/pexels-photo-1202047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*image by Travis Saylor*/
+  
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 5px solid rgba(10, 10, 10, 50%);
+}
+  
+input[type="radio"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+  
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+  
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: rgba(40, 40, 48);
+  color: white;
+  font-size: 0.9rem;
+}
+  
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+  
+form, div {
+  width: 65vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+  
+.container {
+  background-color: rgba(40, 40, 48, 85%);
+  padding: 0 20px;
+  box-shadow: 0px 0px 40px #18181a;
+}
+  
+fieldset:last-of-type {
+   border-bottom: none;
+}
+  
+input[type="checkbox"] {
+  display: inline-block;
+  min-height: 1.1rem;
+  min-width: 1.1rem;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+  
+textarea {
+  height: 80px;
+  resize: vertical;
+  max-height: 80px;
+}
+  
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  height: 2em;
+  margin: 1em auto;
+  font-size: 1.1rem;
+  background: linear-gradient(90grad, rgb(27, 0, 127), rgb(50, 127, 255), rgb(27, 0, 127));
+  color: white;
+  border: 1px solid rgb(0, 0, 127);
+  min-width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px #211021;
+}
+  
+input[type="submit"]:active {
+  margin-top: 1.3em;
+}
+  
+div {
+  border-radius: 21px;
+}
+
+.sub-tittle {
+  margin-bottom: 1em;
+}
+
+#most-like {
+  margin-top: 1em;
+}
